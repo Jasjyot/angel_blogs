@@ -1,0 +1,17 @@
+<!-- DOCTYPE html -->
+<html>
+    <body>
+        <h1>{{ title }} is working !</h1>
+        {% for obj in object_list %}
+
+        {{ obj.id }}<br>
+        {{ obj.title }}<br>
+        {{ obj.timestamp }}<br>
+        {{ obj.updated }}<br>
+        {{ obj.content }}<br><br>
+        
+        {% endfor %}
+
+
+    </body>
+</html>
